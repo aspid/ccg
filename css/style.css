@@ -1,0 +1,242 @@
+html,
+body {
+	height:100%;
+	}
+body {
+	font:62.5% Calibri, Arial, "Liberation Sans", sans-serif;
+	}
+.wrapper {
+	padding:0 50px;
+	min-width:700px;
+	max-width:924px;
+	margin:0 auto;
+	min-height:100%;
+	_height:100%;
+	}
+
+/*--------------------------------------------------------------------- links -----*/
+a {
+	text-decoration:underline;
+	color:#4D4D4D;
+	}
+a:hover {
+	text-decoration:none;
+	}
+.header h1 a:link,
+.header h1 a:visited {
+	text-decoration:none;
+	}
+.header h1 a:hover,
+.header h1 a:active {
+	text-decoration:underline;
+	}
+
+/*--------------------------------------------------------------------- header -----*/
+.header {
+	overflow:hidden;
+	padding:50px 0;
+	}
+.header h1 {
+	float:left;
+	text-transform:lowercase;
+	}
+.header h1 a {
+	position:relative;
+	left:18px;
+	font-size:3.8em;
+	color:#000;
+	}
+.slogan {
+	display:block;
+	font-size:2em;
+	}
+
+.contacts {
+	float:right;
+	text-align:right;
+	width:55%;
+	margin:7px 0 0;
+	}
+.contacts dl {
+	margin:0 0 1em;
+	}
+.contacts dt,
+.contacts dd {
+	display:inline;
+	font-size:1.4em;
+	}
+.contacts dt {
+	font-weight:bold;
+	}
+
+/*--------------------------------------------------------------------- content -----*/
+.main {
+	padding:0 0 150px;
+	}
+.nearest {
+	border:1px solid #999;
+	border-width:0 1px 1px 0;
+	float:left;
+	width:60%;
+	overflow:hidden;
+	padding:0 5% 5% 0;
+	margin:0 10px 0 0;
+	}
+.nearest img,
+.recent img {
+	float:left;
+	margin:0 0 1em 0;
+	}
+.nearest h2 {
+	font-size:1.8em;
+	}
+.nearest h2,
+.nearest .description,
+.nearest .date {
+	padding:0 0 1em 160px;
+	}
+.nearest h2 {
+	padding-bottom:.3em;
+	}
+.nearest .description {
+	padding-top:1em;
+	}
+.description p {
+	text-align:justify;
+	}
+.nearest h2 a,
+.recent h3 a,
+.nearest h2 .imdb,
+.recent h3 .imdb,
+.nearest h2 .kinopoisk,
+.recent h3 .kinopoisk {
+	width:24px;
+	height:24px;
+	display:inline-block;
+	margin:-.4em 0 0;
+	position:relative;
+	background:url(../img/film-db.gif) no-repeat 0 0;
+	vertical-align:middle;
+	overflow:hidden;
+	text-indent:-9999px;
+	font-size:.8em;
+	}
+.recent h3 .imdb,
+.recent h3 .kinopoisk {
+	width:16px;
+	height:16px;
+	background-image:url(../img/film-db-s.gif);
+	font-size:.7em;
+	}
+.nearest h2 .kinopoisk {
+	background-position:0 -24px;
+	}
+.recent h3 .kinopoisk {
+	background-position:0 -16px;
+	}
+.nearest .date,
+.nearest .description p {
+	font-size:1.6em;
+	}
+.nearest p,
+.recent p {
+	padding:.2em 0;
+	}
+.recent {
+	padding:0 0 0 70%;
+	}
+.recent_movie {
+	overflow:hidden;
+	margin:0 0 1em;
+	}
+.recent h3 {
+	font-size:1.4em;
+	}
+.recent_movie .date,
+.recent_movie .description p {
+	font-size:1.2em;
+	}
+.recent img {
+	margin:0 .8em .8em 0;
+	width:60px;
+	}
+.recent h3,
+.recent .description,
+.recent .date {
+	padding:0 0 .3em;
+	}
+
+/*--------------------------------------------------------------------- page content -----*/
+.content h2 {
+	margin:0 0 1em;
+	font-size:1.6em;
+	}
+.content h3 {
+	font-size:1.4em;
+	}
+.content p,
+.content li {
+	margin:.6em 0;
+	font-size:1.4em;
+	line-height:1.2em;
+	}
+.content ins {
+	display:block;
+	text-align:right;
+	font-style:italic;
+	}
+.content iframe {
+	float:left;
+	margin:0 20px 10px 0;
+	}
+
+/*--------------------------------------------------------------------- footer -----*/
+.footer {
+	height:100px;
+	position:relative;
+	margin:-100px auto 0;
+	width:800px;
+	}
+.footer ul {
+	text-align:center;
+	}
+.footer li {
+	display:inline-block;
+	font-size:1.6em;
+	padding:0 1em;
+	}
+.footer .email,
+.footer .twitter,
+.footer .facebook,
+.footer .vkontakte {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url(../img/social-nets.gif) no-repeat 0 0;
+	overflow:hidden;
+	text-indent:-9999px;
+	vertical-align:middle;
+	}
+.footer .twitter {
+	background-position:0 -30px;
+	}
+.footer .facebook {
+	background-position:0 -60px;
+	}
+.footer .vkontakte {
+	background-position:0 -90px;
+	}
+
+/*--------------------------------------------------------------------- feedback -----*/
+.feedback {
+	clear:both;
+	}
+.feedback h2 {
+	font-size:1.8em;
+	}
+.feedback h2 a {
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+	color:#000;
+	}
+
